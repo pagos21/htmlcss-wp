@@ -24,7 +24,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   height: 20vw;
-  border: 10px solid white;
+  border: 0.5vw solid white;
 }
 
 header img{
@@ -176,6 +176,7 @@ footer::after {
 footer p{
   margin: 1% 0;
   text-align: center;
+  padding-top: 10px;
 }
 
 .f_b{
