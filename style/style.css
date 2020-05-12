@@ -20,12 +20,13 @@ header {
   position: relative;
   background-image: url(../img/woods.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 20vw;
 }
 
 header img{
-  height: 50%;
+  height: 12vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,17 +36,19 @@ header img{
 
 header h1{
   color: yellow;
+  font-size: 3vw;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 150%);
+  transform: translate(-50%, 130%);
 }
 
 /* NAV BAR PART */
 
 ul {
   text-align: center;
-  list-style-type: none;
+  /* list-style-type: none; */
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -62,7 +65,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
 }
 
@@ -76,10 +79,10 @@ li a:hover:not(.active) {
 
 /* main part */
 
-.riga {
+.row {
   margin: 20px 0;
 }
-.riga::after {
+.row::after {
   content: "";
   display: table;
   clear: both;
