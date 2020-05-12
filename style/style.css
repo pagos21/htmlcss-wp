@@ -17,12 +17,14 @@ body{
 }
 
 header {
+
   position: relative;
   background-image: url(../img/woods.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 20vw;
+  border: 10px solid white;
 }
 
 header img{
@@ -82,6 +84,11 @@ li a:hover:not(.active) {
 .row {
   margin: 20px 0;
 }
+
+.row *{
+  border-radius: 15px;
+}
+
 .row::after {
   content: "";
   display: table;
@@ -135,6 +142,11 @@ aside a{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
+
 .a2 {
   float: left;
   width: 20%;
@@ -150,6 +162,8 @@ aside a{
 /* footer */
 
 footer {
+  border-radius: 15px;
+
   background-color: white;
 }
 
