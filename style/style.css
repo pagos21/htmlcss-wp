@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+header {
+  position: relative;
+  background-image: url(../img/woods.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+header img{
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+
+header h1{
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
+/* NAV BAR PART */
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #80571b;
+  width: 100%;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* parte principale */
+
+.riga {
+  margin: 20px 0;
+}
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  /* display: inline-block; */
+  width: 100%;
+  float: left;
+  padding: 0.5%;
+}
+
+.logo img {
+  margin: 4% 0% 0% 4%;
+  width: 20%;
+  /* display: inline-block; */
+}
+
+.logo p{
+  display: inline-block;
+  padding: 7px;
+}
+
+main {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  /* debuging point */
+  background-color: white;
+}
+
+main h3{
+  margin: 15px;
+}
+
+main p{
+  margin-top: 25px;
+}
+
+/* contenuti di contorno */
+.a1 {
+  float: left;
+  width: 20%;
+  background-color: white;
+}
+
+aside p{
+  margin: 6%;
+}
+
+aside a{
+  color: green;
+  text-decoration: none;
+}
+
+.a2 {
+  float: left;
+  width: 20%;
+  background-color: transparent;
+  /* debug */
+}
+
+.widget {
+  padding: 1%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  /* position: relative; */
+  /* height: 150px; */
+  background-color: white;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer p{
+  margin: 1% 0;
+  text-align: center;
+}
+
+.f_b{
+  text-align: center;
+  float: left;
+}
+
+/* .f_b::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+
+footer img{
+  width: 10%;
+}
+
+.f1{
+  padding: 10px;
+  float: left;
+  margin: 1%;
+  text-align: center;
+  width: 31%;
+}
+
+
+.f_middle{
+  padding: 10px;
+  float: left;
+  margin: 1%;
+  text-align: center;
+  width: 32%;
+}
+
+.f2{
+  padding: 10px;
+  float: left;
+  margin: 1%;
+  text-align: center;
+  width: 31%;
+}
