@@ -47,13 +47,13 @@ header h1{
 }
 
 /* NAV BAR PART */
+/* Per fare la navbar senza spazietti
+usa il position absolute e transform + float */
 
 ul {
   text-align: center;
-  /* list-style-type: none; */
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #80571b;
   width: 100%;
 }
@@ -164,7 +164,7 @@ a:hover{
 
 footer {
   border-radius: 15px;
-
+  color: grey;
   background-color: white;
 }
 
